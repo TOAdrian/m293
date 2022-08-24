@@ -9,6 +9,11 @@
 <body>
     <h1>Adrian Prodea</h1> 
     <img class = "portrait" src ="Brüder.JPG" height="250" width="200" alt="Adrian">
+    <h2>Kontakt</h2>
+    <a>Am See 5<br>6452 Sisikon</a>
+    <a2>adrian.prodea7@gmail.com<br>+41 76 606 36 33</a2>
+
+    
 </body>
 </html>
 
