@@ -1,5 +1,6 @@
 body {
     text-align: center;
+    background-color: bisque;
 }
 img {
     height: 200px;
@@ -13,8 +14,8 @@ h1 {
 h2 {
     color: blue;
 }
-a.spotify {
-   background-color: bisque; 
+a.Spotify {
+   background-color: greenyellow; 
 }
 
 
