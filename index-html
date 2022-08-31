@@ -8,6 +8,7 @@
     <title>Document</title>
 </head>
 <body>
+    <div id="container">
     <h1>Adrian Prodea</h1> 
     <img class = "portrait" src ="Brüder.JPG" alt="Adrian">
     <h2>Kontakt</h2>
@@ -21,6 +22,7 @@
     <a href="+41 76 606 36 33">+41 76 606 36 33</a>
     <h3>Meine Links</h3>
     <a href="https://open.spotify.com/artist/6o3zRVItdgspSnobnAHgLu" class="Spotify">Spotify</a>
+</div>
     
 </body>
 </html>
