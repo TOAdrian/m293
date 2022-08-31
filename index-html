@@ -20,7 +20,7 @@
     <br>
     <a href="+41 76 606 36 33">+41 76 606 36 33</a>
     <h3>Meine Links</h3>
-    <div><a href="https://open.spotify.com/artist/6o3zRVItdgspSnobnAHgLu">Spotify</a></div>
+    <a href="https://open.spotify.com/artist/6o3zRVItdgspSnobnAHgLu" class="Spotify">Spotify</a>
     
 </body>
 </html>
