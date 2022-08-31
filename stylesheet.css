@@ -4,5 +4,16 @@ body {
 img {
     height: 200px;
   width: 170px;
-  border: black;
+  border: 4px solid black;
+  border-radius: 20%;
 }
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+h2 {
+    color: blue;
+}
+a4 
+
+
+
