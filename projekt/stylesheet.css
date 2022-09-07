@@ -1,0 +1,43 @@
+body {
+    margin-left: 1cm;
+    margin-right: 1cm;
+    border: 2px solid black;
+}
+.one {
+    background-color: #89cff0;
+    border: 2px solid black;
+}
+a.Factory {
+    text-decoration: none;
+    color: black;
+    font-size: 160%;
+    margin-left: 0.5cm;
+}
+a.Pizza {
+    margin-left: 17cm;
+}
+a.Salad {
+    margin-left: 0.5cm;
+}
+a.Drinks {
+    margin-left: 0.5cm;
+}
+a.Feedback {
+    margin-left: 0.5cm;
+}
+.two {
+    text-align: center;
+}
+#textbox {display:flex; flex-flow:row wrap;background-color: #89cff0;}
+
+.alignleft {
+margin-left: 0.5cm;
+}
+.aligncenter {
+width:68.33333%;
+text-align:center;
+}
+.alignright {
+width:14%;
+text-align:right;
+}
