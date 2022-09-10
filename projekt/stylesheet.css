@@ -41,4 +41,31 @@ text-align:center;
 width:14%;
 text-align:right;
 }
+.restaurant {
+    width: 350px;
+    height: 350px;
+    margin: auto;
+    display: block;
+}
+.softdrinks {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-left: 0.5cm;
+}
+.pizza {
+    width: 200px;
+    height: 200px;
+    float: center;
+    margin-left: 7.25cm;
+}
+.salad {
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-right: 0.5cm;
+}
+h1 {
+    text-align: center;
+}
 
