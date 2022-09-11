@@ -71,17 +71,6 @@ text-align:right;
 h1 {
     text-align: center;
 }
-.txt1 {
-    position: absolute;
-    top: 50%;
-    left: 9%;
-    transform: translate(-50%, -50%);  
-}
-.txt1 {
-    position: relative;
-    text-align: center;
-    color: white;
-}
 .p1 {
     width: 200px;
     height: 200px;
