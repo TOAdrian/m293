@@ -177,3 +177,38 @@ h1 {
 #p8 {
     margin-left: 1cm;
 }
+.Coke {
+    width: 200px;
+    height: 200px;
+}
+.Pepsi {
+    width: 200px;
+    height: 200px;
+    margin-left: 3.6cm;
+}
+.Redbull {
+    width: 200px;
+    height: 200px;
+    margin-left: 3cm;
+}
+.Fanta {
+    width: 200px;
+    height: 200px;
+    margin-left: 3cm;
+}
+#coke, #pepsi, #fanta, #redbull {
+    display: inline-block;
+    padding: 2rem;
+  }
+#coke {
+    margin-left: 1.5cm;
+}
+#fanta {
+    margin-left: 5cm;
+}
+#pepsi {
+    margin-left: 5.5cm;
+}
+#redbull {
+    margin-left: 5cm;
+}
