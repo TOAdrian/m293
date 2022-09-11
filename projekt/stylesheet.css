@@ -47,19 +47,20 @@ text-align:right;
     margin: auto;
     display: block;
 }
-.softdrinks {
+.pizza {
     width: 200px;
     height: 200px;
     float: left;
     margin-left: 0.5cm;
+    position: relative;
 }
-.pizza {
+.salad {
     width: 200px;
     height: 200px;
     float: center;
     margin-left: 7.25cm;
 }
-.salad {
+.softdrinks {
     width: 200px;
     height: 200px;
     float: right;
@@ -68,4 +69,46 @@ text-align:right;
 h1 {
     text-align: center;
 }
-
+.txt1 {
+    position: absolute;
+    top: 50%;
+    left: 9%;
+    transform: translate(-50%, -50%);  
+}
+.pizzatxt {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.pizza1 {
+    width: 200px;
+    height: 200px;
+}
+.pizza2 {
+    width: 200px;
+    height: 200px;
+}
+.pizza3 {
+    width: 200px;
+    height: 200px;
+}
+.pizza4 {
+    width: 200px;
+    height: 200px;
+}
+.pizza5 {
+    width: 200px;
+    height: 200px;
+}
+.pizza6 {
+    width: 200px;
+    height: 200px;
+}
+.pizza7 {
+    width: 200px;
+    height: 200px;
+}
+.pizza8 {
+    width: 200px;
+    height: 200px;
+}
