@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="../css/stylesheet.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,12 +16,14 @@
             <a href="Slide4.html" class="Drinks">Soft Drinks</a>
             <a href="Slide5.html" class="Feedback">Feedback</a><br><br></div>
     <h1>Soft Drinks</h1>
+    <p>Warenkorb</p>
+    <p id="clickme"></p>
         <br>    
         <div> 
-            <img src="Coke.jpg" class="Coke"> 
-            <img src="Fanta.jpg" class="Fanta"> 
-            <img src="Pepsi.webp" class="Pepsi"> 
-            <img src="Redbull.jpg" class="Redbull">
+            <img src="../Img/Coke.jpg" class="Coke"> 
+            <img src="../Img/Fanta.jpg" class="Fanta"> 
+            <img src="../Img/Pepsi.webp" class="Pepsi"> 
+            <img src="../Img/Redbull.jpg" class="Redbull">
         </div>
         <div id="coke">
             <a>Coke</a>
@@ -31,6 +33,7 @@
                 <option value="100">100cl</option>
                 <option value="250">250cl</option>
             </select>
+            <br> <button onclick="shoppingcart()"><img src="../Img/Einkaufswagen.png" alt=""></button>
         </div>
         <div id="fanta">
             <a>Fanta</a>
@@ -40,6 +43,7 @@
                 <option value="100">100cl</option>
                 <option value="250">250cl</option>
             </select>
+            <br> <button onclick="shoppingcart()"><img src="../Img/Einkaufswagen.png" alt=""></button>
         </div>
         <div id="pepsi">
             <a>Pepsi</a>
@@ -49,6 +53,7 @@
                 <option value="100">100cl</option>
                 <option value="250">250cl</option>
             </select>
+            <br> <button onclick="shoppingcart()"><img src="../Img/Einkaufswagen.png" alt=""></button>
         </div>
         <div id="redbull">
             <a>Redbull</a>
@@ -59,6 +64,7 @@
                     <option value="100">100cl</option>
                     <option value="250">250cl</option>
                 </select>
+                <br> <button onclick="shoppingcart()"><img src="../Img/Einkaufswagen.png" alt=""></button>
             </div>
             <br>
             <br>
@@ -85,5 +91,6 @@
                 <br> Chicago, IL 60614, USA</p>
                 
             </div>
+            <script src="../javascript/pizza.js"></script>
     </body>
 </html>
