@@ -83,8 +83,7 @@ let PizzaList =
         "ingredients": [
             "Tomato",
             "Mozzarella",
-            "Broccoli",
-            "Spinach",
+            "Broccoli", "Spinach",
             "Oregano"
         ],
         "imageUrl": "https://farm7.staticflickr.com/6044/6363618775_e8714fb517.jpg"
@@ -102,7 +101,7 @@ let PizzaList =
             "Garlic",
             "Oregano"
         ],
-        "imageUrl": "https://farm9.staticflickr.com/8574/16488100040_988f0caa70.jpg"
+        "imageUrl": "https://www.pizzerialiberty.ch/wp-content/uploads/2015/05/Pizza-Rustica.jpeg"
     }
 ]
 
@@ -115,21 +114,18 @@ let PizzaList =
 
     PizzaList.forEach(function (pizzas) {
 
-       
+
+    let pizzaDiv = document.createElement("div");
+
+    pizzaDiv.classList.add("PizzaDiv");
 
    
 
-    let PizzaList = document.createElement("div");
-
-    PizzaList.classList.add("PizzaDiv");
+    pizzaDiv.innerHTML = '<img class="p1" src="'+pizzas.imageUrl+'" alt="'+pizzas.name+'"><br><p>'+pizzas.name+'</p><p class="PizzaInfo">'+pizzas.ingredients+'<br></p><a>'+pizzas.prize+'</a><button onclick="shoppingcart()"><img src="../M293 - Projekt/Slide3 Fotos/Einkaufswagen.PNG" class="shoppingCartImg" alt="ShoppingCart"></button>';
 
    
 
-    PizzaList.innerHTML = '<div><img src="'+pizzas.imageUrl+'" class="p1, p2, p3, p4, p5, p6, p7, p8" alt="'+pizzas.name+'"><br><p>'+pizzas.name+'</p><p class="PizzaInfo">'+pizzas.ingredients+'</p><a>'+pizzas.prize+'</a><button onclick="addToCart()"><img src="../M293 - Projekt/Slide3 Fotos/Einkaufswagen.PNG" class="shoppingCartImg" alt="ShoppingCart"></button></div>';
-
-   
-
-    container.appendChild(PizzaList);
+    container.appendChild(pizzaDiv);
 
    
 

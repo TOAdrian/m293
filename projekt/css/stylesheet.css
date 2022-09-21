@@ -77,40 +77,15 @@ h1 {
     height: 200px;
     margin-left: 0.5cm;
 }
-.p2 {
-    width: 200px;
-    height: 200px;
-    margin-left: 2.92cm;
+.PizzaDiv{
+    width: 250px;
 }
-.p3 {
-    width: 200px;
-    height: 200px;
-    margin-left: 2.92cm;
-}
-.p4 {
-    width: 200px;
-    height: 200px;
-    margin-left: 2.92cm;
-}
-.p5 {
-    width: 200px;
-    height: 200px;
-    margin-left: 0.5cm;
-}
-.p6 {
-    width: 200px;
-    height: 200px;
-    margin-left: 2.92cm;
-}
-.p7 {
-    width: 200px;
-    height: 200px;
-    margin-left: 2.92cm;
-}
-.p8 {
-    width: 200px;
-    height: 200px;
-    margin-left: 2.92cm;
+
+#PizzaDisplay{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .s1 {
     width: 200px;
@@ -201,4 +176,7 @@ h1 {
 }
 #redbull {
     margin-left: 5cm;
+}
+.ingredients {
+    font-size: 6px;
 }
